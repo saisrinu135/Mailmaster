@@ -48,7 +48,7 @@ uploadBtn.addEventListener("click", async () => {
 
         if (response.ok) {
             const leads = await response.json();
-            sessionStorage.setItem('leads', JSON.stringify(leads));
+            localStorage.setItem('mail-leads', JSON.stringify(leads))
             window.location.href = '/home/';
         }
         else {
