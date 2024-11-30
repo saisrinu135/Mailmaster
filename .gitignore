@@ -2,3 +2,6 @@ env/
 .pdf
 .env
 db.sqlite3
+*.drawio
+__pycache__/
+venv/
